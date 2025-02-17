@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: food-delivery-app
+    env: java
+    plan: free
+    startCommand: java -jar target/FoodApplication.war  # Update with your actual WAR file name
