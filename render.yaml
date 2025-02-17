@@ -2,4 +2,4 @@ services:
   - type: web
     name: food-delivery-app
     plan: free
-    startCommand: java -jar target/FoodDeliveryApplication.war  # Replace with the actual WAR file name
+    startCommand: java -jar target/FoodDeliveryApplication.war  # Replace with the correct WAR file name
