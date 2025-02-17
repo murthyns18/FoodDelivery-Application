@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ecfdf5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #10b981;
+    color: #ffffff; 
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px; 
+}
+
+.card h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}

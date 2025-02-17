@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.checkout-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d1d1d1;
+}
+
+.checkout-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2c5282;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2c5282;
+}
+
+textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus, select:focus {
+    border-color: #10b981;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem 2rem;
+    background: linear-gradient(135deg, #4a90e2, #67b26f, #10b981);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    .checkout-container {
+        padding: 1rem;
+        width: 100%;
+    }
+}

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+.confirmation-container {
+    background: #fdfefe;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
+.bike-container {
+    position: absolute;
+    bottom: 10%;
+    left: -300px;
+    width: 200px;
+    height: 150px;
+    background: url('bike.png') no-repeat center center;
+    background-size: contain;
+    animation: bikeRide 6s ease-in-out forwards;
+    z-index: 5;
+}
+
+@keyframes bikeRide {
+    0% {
+        left: -300px;
+    }
+    50% {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+h1 {
+    color: #0cb923;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+img {
+    margin-bottom: 15px;
+}
+
+.order-details p {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+}
+
+.order-details .order-id {
+    color: #10b981;  /* Green for Order ID */
+    font-weight: bold;
+}
+
+.order-details .total-amount {
+    color: #e53e3e;  /* Red for Total Amount */
+    font-weight: bold;
+}
+
+.next-steps {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 18px;
+    background: #1abc9c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #16a085;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-weight: bold;
+}
