@@ -31,12 +31,12 @@ Note: The payment page is only a demo and is not connected to a real payment gat
 
 **2 : Registration Page**
 
-![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/8ba1711cde59306bf52898350860ed059e202f0f/register_food.png)
+![image alt](https://github.com/murthyns18/FoodDelivery-Application/blob/389acb8ed1ac74bcee74db53acaa8b57753d4f5a/register_food.png)
 
 
 **3 : Login Page**
 
-![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/8ba1711cde59306bf52898350860ed059e202f0f/login_food.png)
+![image alt](https://github.com/murthyns18/FoodDelivery-Application/blob/389acb8ed1ac74bcee74db53acaa8b57753d4f5a/login_food.png)
 
 
 **4 : Menus Page**
