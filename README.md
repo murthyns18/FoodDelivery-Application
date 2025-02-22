@@ -41,20 +41,20 @@ Note: The payment page is only a demo and is not connected to a real payment gat
 
 **4 : Menus Page**
 
-![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/567e5bc3cb231cd48efa28b0ef7bcb3fe4128110/menu.png)
+![image alt](https://github.com/murthyns18/FoodDelivery-Application/blob/711af43805b16f8ecebe4056a6fee8e236d13ba4/menu.png)
 
 
 **5 : Cart Page**
 
-![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/c0207362e0e30c8bda5205b9aebfd759f7c5f486/cart.png)
+![image alt](https://github.com/murthyns18/FoodDelivery-Application/blob/711af43805b16f8ecebe4056a6fee8e236d13ba4/cart.png)
 
 
 **6 : Checkout Page**
 
-![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/c0207362e0e30c8bda5205b9aebfd759f7c5f486/checkout.png)
+![image alt](https://github.com/murthyns18/FoodDelivery-Application/blob/711af43805b16f8ecebe4056a6fee8e236d13ba4/checkout.png)
 
 
 **7 : Order Confirmation Page**
 
-![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/c0207362e0e30c8bda5205b9aebfd759f7c5f486/orderConfirmation.png)
+![image alt](https://github.com/murthyns18/FoodDelivery-Application/blob/711af43805b16f8ecebe4056a6fee8e236d13ba4/orderConfirmation.png)
 
