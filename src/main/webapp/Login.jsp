@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="background-image">
+    
     	<div class="container">
         <h1>Sign In To Your Account</h1>
         <p class="signup-text">Don't have an account? <a href="Register.jsp">Sign Up</a></p>
@@ -27,6 +27,6 @@
             <button type="submit" class="login-btn">Login</button>
         </form>
     </div>
-    </div>
+
 </body>
 </html>
