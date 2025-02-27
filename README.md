@@ -1,5 +1,5 @@
 
-# Online-Food-Delivery-Application-using-Java
+# Online-Food-Delivery-Application-using-Java, JDBC, JSP, Servlets, MyQL
 
 **Project: Food Delivery Application**
 
